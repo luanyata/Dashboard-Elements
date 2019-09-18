@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="navbar">
+            <div>
+                <ion-icon id="logo" name="ios-analytics"></ion-icon>
+                <span id="name-system">Dash Elements</span>
+            </div>
+            <span class="space"></span>
+            <div>
+                <ion-icon id="notification" name="ios-notifications"></ion-icon>
+                <div id="username">Luan Lima</div>
+                <ion-icon name="ios-arrow-dropdown-circle"></ion-icon>
+            </div>
+        </div>
+
+        <nav class="container">
+            <ul>
+                <li class="space-menu active"><a href="#">Home</a></li>
+                <li class="space-menu"><a href="#">My Projects</a></li>
+                <li class="space-menu"><a href="#">Payments</a></li>
+                <li class="space-menu"><a href="#">Activity</a></li>
+                <li class="space-menu"><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="statistic">
+            <div id="earning" class="card"></div>
+            <div id="rank" class="card"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="category">Suggested Projects</div>
+        <div id="container-suggested-project">
+            <div class="card card-suggested-project"></div>
+            <div class="card card-suggested-project"></div>
+            <div class="card card-suggested-project"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

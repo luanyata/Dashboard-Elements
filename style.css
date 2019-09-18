@@ -1,0 +1,141 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: yata
+}
+
+@font-face{
+    font-family: yata;
+    src: url(./fonts/aktiv-grotesk.ttf)
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 100%;
+    background-color: #6A79DD;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 80%;
+}
+
+#logo{
+    font-size: 30px;
+   
+}
+
+#name-system{
+    margin-left: 20px 
+}
+
+
+#notification{
+    font-size: 25px
+}
+
+#username{
+margin-left: 22px;
+margin-right: 18px;
+}
+
+
+/* Menu */
+
+.space-menu{
+    margin-right: 48px
+}
+
+nav{
+    margin-top: 50px !important
+}
+
+#navbar{
+margin-top: 39px;
+color: #fff;
+display: flex;
+flex-grow: initial
+}
+
+
+#navbar div{
+    display: flex;
+   align-items: center;
+}
+
+.space{
+    flex: 1 1 auto;
+}
+
+.active{
+    width: 88px;
+    height: 34px;
+    border-radius: 17px;
+    fill: #6A79DD
+}
+
+li{
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* Cards */
+
+#statistic{
+    display: flex
+}
+
+.card{
+    border-radius: 8px;
+    background-color: #fff
+}
+
+#earning{
+    width: 730px;
+    height: 248px;
+    position: relative;
+    margin-right: 33px ;
+    top: -50px
+}
+
+#rank{
+    width: 347px;
+    height: 248px;
+    position: relative;
+    top: -50px
+}
+
+.category{
+    font-size: 20px;
+    margin-top: 40px
+}
+
+
+#container-suggested-project{
+display: flex
+}
+
+.card-suggested-project{
+    width: 350px;
+    height: 280px;
+}
+
+.card-suggested-project:nth-child(n+2){
+    margin-left: 20px
+}
